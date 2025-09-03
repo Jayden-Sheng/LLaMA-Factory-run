@@ -44,8 +44,6 @@ resume_from_checkpoint: null
 
 #potimize for gpu memory
 gradient_checkpointing: true
-model_parallel_size: 1
-max_train_samples: 1000
 deepspeed: examples/deepspeed/ds_z3_offload_config.json
 ### eval
 # val_size: 0.1
